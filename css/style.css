@@ -46,21 +46,15 @@ table {
 
 
 
-
-
-
-
-
 h1{
-  color: #343E51;
+  color: #fff;
   font-family: 'PT Serif', serif;
   font-weight: bold;
   font-size: 40pt;
 }
 
 h2{
-  font-size: 30pt;
-  line-height: 46px;
+  font-size: 24pt;
   margin-bottom: 60px;
 }
 
