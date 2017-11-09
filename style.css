@@ -45,27 +45,15 @@ table {
 /*END RESET*/
 
 
+
 h1{
-	font-size: 48px;
-	font-family: Lato, sans-serif;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 40px;
 }
 
 h2{
-	font-size: 32px;
-	font-family: Lato, sans-serif;
-	line-height: 32pt;
-}
-
-.container{
-	padding: 40px;
-}
-
-
-@media screen and (max-width: 2000px) and (min-width: 1000px) {
-    h2 {
-      max-width: 44%;
-    }
-		.container{
-			padding: 60px;
-		}
+  font-size: 30pt;
+  line-height: 46px;
+  margin-bottom: 60px;
 }
