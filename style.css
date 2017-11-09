@@ -44,16 +44,19 @@ table {
 
 /*END RESET*/
 
+body {
+	background-color: #ECEFF1;
+}
 
+h1, h2{
+	font-family: PT Sans, sans-serif;
+}
 
 h1{
-  font-family: 'PT Serif', serif;
-  font-weight: 700;
-  font-size: 40px;
+  font-size: 40pt;
 }
 
 h2{
-  font-size: 30pt;
-  line-height: 46px;
-  margin-bottom: 60px;
+  font-size: 28pt;
+	font-weight: 300;
 }
