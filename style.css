@@ -49,7 +49,7 @@ body {
 }
 
 h1, h2{
-	font-family: PT Sans, sans-serif;
+	font-family: PT Serif, serif;
 }
 
 h1{
@@ -59,4 +59,9 @@ h1{
 h2{
   font-size: 28pt;
 	font-weight: 300;
+}
+
+h3{
+	font-family: PT Sans, sans-serif;
+	font-size: 20pt;
 }
