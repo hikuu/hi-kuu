@@ -44,14 +44,14 @@ table {
 
 /*End reset*/
 
-
-
-
+a, h1, h2{
+	color: black;
+	font-family: PT Sans, sans-serif;
+}
 
 a{
-	font-size: 15pt;
-	font-weight: 100;
-	padding-right: 24px;
+	font-size: 12pt;
+	padding: 0 18px 0 0;
 	text-decoration: none;
 }
 
@@ -60,46 +60,53 @@ a:hover{
 	border-bottom: 2px;
 }
 
-a, h1, h2{
-	color: black;
-	font-family: PT Sans, sans-serif;
-}
-
 .container{
-  overflow: auto;
-	padding: 100px 0 0 20px;
-	width: 45%;
+	margin: 60px;
 }
 
 h1{
-  font-size: 40pt;
-	font-weight: 100;
-	line-height: 47pt;
+	font-size: 40pt;
+	font-weight: 700;
+	margin-bottom: 10px;
 }
 
 h2{
-  font-size: 28pt;
-	line-height: 32pt;
+	font-size: 32pt;
+	line-height: 34pt;
 	margin-bottom: 48px;
+	width: 60%;
 }
 
 .profile{
-	float: left;
-	padding: 100px 0 0 100px;
+	padding: 0 0 20px 0;
 }
+
 
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
 	a{
-		font-size: 13pt;
+		padding: 0 13px 0 0;
 	}
 	.container{
-	  overflow: auto;
-		padding: 20px;
-		width: 90%;
+		margin: 20px;
 	}
-	.profile{
-		float: left;
-		padding: 20px;
+	h1{
+		font-size: 32pt;
+    margin-bottom: 10px;
+	}
+	h2{
+		font-size: 28pt;
+    line-height: 32pt;
+    margin-bottom: 48px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1260px) and (min-width: 768px) {
+	.container{
+		margin: 60px;
+	}
+	h2{
+		width: 80%;
 	}
 }
